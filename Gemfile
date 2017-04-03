@@ -7,7 +7,7 @@ gem 'rails', '4.2.5'
 gem 'sqlite3', group: [:development, :test]
 
 # Adding Twitter Bootstrap SASS for styles
-gem 'bootstrap-sass', '~>3.3.1'
+gem 'bootstrap-sass', '~>3.3.7'
 
 # Use postgresql as the database for production
 group :production do
