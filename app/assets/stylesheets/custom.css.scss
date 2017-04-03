@@ -1,0 +1,18 @@
+/* Colour settings
+#F1F1F1 
+#C3C2C3 
+#4A4A4A
+#E4920B - Orange
+#4E1C9F - Purple
+
+*/
+// "bootstrap-sprockets" must be imported before "bootstrap" and "bootstrap/variables"
+@import "bootstrap-sprockets";
+@import "bootstrap";
+@import "font-awesome-sprockets";
+@import "font-awesome";
+
+.navbar {
+    background: #4E1C9F;
+    
+}
