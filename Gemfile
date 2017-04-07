@@ -17,6 +17,7 @@ gem 'sass-rails', '~> 5.0'
 # Adding Twitter Bootstrap SASS for styles
 gem 'bootstrap-sass', '~>3.3.7'
 
+
 # Use Font Awesome Library for Icons.
 gem 'font-awesome-sass', '~> 4.7.0'
 
@@ -58,3 +59,4 @@ group :development do
   gem 'spring'
 end
 
+gem 'devise', '~>3.4.1'
