@@ -4,11 +4,20 @@
 #4A4A4A
 #E4920B - Orange
 #4E1C9F - Purple
+#3C2364 - Darker Purple
 
 */
 // "bootstrap-sprockets" must be imported before "bootstrap" and "bootstrap/variables"
 @import "bootstrap-sprockets";
 @import "bootstrap";
+// making primary colour from blue to purple
+.btn-primary { background-color: #4E1C9F; } //button
+.btn-primary { border-color: #3C2364; } //button
+.btn-primary:hover { background-color: #8B51E8; } //hover
+// making warning colour from blue to purple
+.btn-warning { background-color: #E4920B; } //button
+.btn-warning { border-color: #B17109; } //button
+.btn-warning:hover { background-color: #E8AF51; } //hover
 @import "font-awesome-sprockets";
 @import "font-awesome";
 
