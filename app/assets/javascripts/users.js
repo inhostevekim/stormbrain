@@ -1,3 +1,4 @@
+/*global Stripe*/
 $(document).ready(function() {
     Stripe.setPublishableKey($('meta[name="stripte-key"]').attr('content'));
     // Watch for a form submission
