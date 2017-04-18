@@ -13,7 +13,7 @@ $(document).ready(function() {
             
         if (!error) {
             // Get the Stripe token:
-            Stripe.createToken({
+            Stripe.card.createToken({
                 number: ccNum,
                 cvc: cvcNum,
                 exp_month: expMonth,
@@ -25,7 +25,7 @@ $(document).ready(function() {
     
     function stripeResponseHandler(status, response){
         //Get a reference to the form
-        var f = $("#new_user");
+        var f = $(".new_user");
         //Get the token from response
         var token = response.id;
         //Add the token to the form
