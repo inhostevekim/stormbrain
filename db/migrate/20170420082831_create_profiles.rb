@@ -5,6 +5,7 @@ class CreateProfiles < ActiveRecord::Migration
       t.string :first_name
       t.string :last_name
       t.string :job_title
+      t.string :research_field
       t.string :phone_number
       t.string :contact_email
       t.text :description
